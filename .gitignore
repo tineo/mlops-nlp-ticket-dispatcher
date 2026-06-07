@@ -12,6 +12,7 @@ __pycache__/
 # MLflow / Azure ML / Artefactos de Modelo
 mlruns/
 model/
+mlflow.db
 *.pkl
 *.joblib
 *.h5
