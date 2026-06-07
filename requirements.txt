@@ -1,0 +1,11 @@
+pandas
+scikit-learn
+nltk
+mlflow
+azureml-core
+azureml-mlflow
+fastapi
+uvicorn
+pydantic
+pytest
+evidently

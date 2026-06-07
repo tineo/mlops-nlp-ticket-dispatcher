@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: ticket-classifier-svc
+spec:
+  type: LoadBalancer # Expone el servicio al exterior (Azure Load Balancer)
+  selector:
+    app: ticket-classifier
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8000

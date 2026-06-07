@@ -1,0 +1,33 @@
+# Entornos Virtuales
+venv/
+env/
+.env
+
+# Python / Compilados
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# MLflow / Azure ML / Artefactos de Modelo
+mlruns/
+model/
+*.pkl
+*.joblib
+*.h5
+
+# Testing / Dependencias
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Datos Locales
+data/*.csv
+!data/sample_tickets.csv
+data/*.json
+
+# IDEs y SO
+.idea/
+.vscode/
+.DS_Store
